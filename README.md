@@ -22,7 +22,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/list)
 
-![Singly Linked List](assets/SinglyLinkedList.png)
+<div align="center">
+  <img src="assets/SinglyLinkedList.png" alt="Singly Linked List" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/List/SinglyLinkedList.java)
@@ -36,7 +38,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/list)
 
-![Doubly Linked List](assets/DoublyLinkedList.png)
+<div align="center">
+  <img src="assets/DoublyLinkedList.png" alt="Doubly Linked List" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/List/DoublyLinkedList.java)
@@ -50,7 +54,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/list)
 
-![Stack](assets/Stack.png)
+<div align="center">
+  <img src="assets/Stack.png" alt="Stack" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/Stack/LinkedStack.java)
@@ -64,7 +70,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/list)
 
-![Queue](assets/Queue.png)
+<div align="center">
+  <img src="assets/Queue.png" alt="Queue" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/Queue/LinkedQueue.java)
@@ -78,7 +86,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/list)
 
-![Deque](assets/Deque.png)
+<div align="center">
+  <img src="assets/Deque.png" alt="Deque" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/Queue/LinkedDeque.java)
@@ -92,7 +102,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/bst)
 
-![BinaryTree](assets/BinaryTree.png)
+<div align="center">
+  <img src="assets/BinaryTree.png" alt="Binary Tree" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/Tree/BinaryTree.java)
@@ -106,7 +118,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/bst)
 
-![BSTree](assets/BSTree.png)
+<div align="center">
+  <img src="assets/BSTree.png" alt="Binary Search Tree" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/Tree/BinarySearchTree.java)
@@ -120,7 +134,9 @@
 
 [**Визуализация методов**](https://visualgo.net/en/bst)
 
-![AVLTree](assets/AVLTree.png)
+<div align="center">
+  <img src="assets/AVLTree.png" alt="AVL Tree" width="400"/>
+</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/Tree/AVLTree.java)
@@ -132,6 +148,10 @@
 **Описание:**  
 Самобалансирующееся двоичное дерево с цветными узлами для балансировки.
 
+<div align="center">
+  <img src="assets/RedBlackTree.png" alt="Red-Black Tree" width="400"/>
+</div>
+
 **Код реализации:**  
 [**Java**](src/Java/Structures/Tree/RedBlackTree.java)
 
@@ -142,24 +162,28 @@
 **Описание:**  
 Ассоциативный массив с разрешением коллизий методом цепочек (linked lists).
 
+<div align="center">
+  <img src="assets/HashMap.png" alt="HashMap" width="400"/>
+</div>
+
 **Код реализации:**  
 [**Java**](src/Java/Structures/Map/HashMap.java)
 
 ---
 
 ## Таблица
-| Структура данных    | Краткое описание                       | Временная сложность (поиск) | Временная сложность (вставка/удаление) |
-|--------------------|--------------------------------------|-----------------------------|-----------------------------------------|
-| Singly Linked List  | Последовательный односвязный список  | O(n)                        | O(1) (в начале), O(n) (в конце)          |
-| Doubly Linked List  | Двусвязный список                    | O(n)                        | O(1) (в начале/конце)                     |
-| Stack              | Стек LIFO                           | O(1)                        | O(1)                                     |
-| Queue              | Очередь FIFO                        | O(1)                        | O(1)                                     |
-| Deque              | Двунаправленная очередь             | O(1)                        | O(1)                                     |
-| Binary Tree        | Бинарное дерево                     | O(n)                        | O(n)                                     |
-| Binary Search Tree | Двоичное дерево поиска              | O(log n) среднее             | O(log n) среднее                         |
-| AVL Tree           | Самобалансированное двоичное дерево | O(log n)                    | O(log n)                                |
-| Red-Black Tree     | Самобалансированное двоичное дерево | O(log n)                    | O(log n)                                |
-| HashMap            | Хэш-таблица с цепочками            | O(1) среднее                | O(1) среднее                            |
+| Структура данных     | Краткое описание                       | Временная сложность (поиск) | Временная сложность (вставка/удаление) |
+|----------------------|----------------------------------------|-----------------------------|-----------------------------------------|
+| Singly Linked List   | Последовательный односвязный список    | O(n)                        | O(1) (в начале), O(n) (в конце)         |
+| Doubly Linked List   | Двусвязный список                      | O(n)                        | O(1) (в начале/конце)                   |
+| Stack                | Стек LIFO                              | O(1)                        | O(1)                                    |
+| Queue                | Очередь FIFO                           | O(1)                        | O(1)                                    |
+| Deque                | Двунаправленная очередь                | O(1)                        | O(1)                                    |
+| Binary Tree          | Бинарное дерево                        | O(n)                        | O(n)                                    |
+| Binary Search Tree   | Двоичное дерево поиска                 | O(log n) среднее            | O(log n) среднее                        |
+| AVL Tree             | Самобалансированное двоичное дерево    | O(log n)                    | O(log n)                                |
+| Red-Black Tree       | Самобалансированное двоичное дерево    | O(log n)                    | O(log n)                                |
+| HashMap              | Хэш-таблица с цепочками                | O(1) среднее                | O(1) среднее                            |
 
 ---
 
