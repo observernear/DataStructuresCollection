@@ -55,7 +55,7 @@
 [**Визуализация методов**](https://visualgo.net/en/list)
 
 <div align="center">
-  <img src="assets/Stack.png" alt="Stack" width="400"/>
+  <img src="assets/Stack.png" alt="Stack" width="400" height="400"/>
 </div>
 
 **Код реализации:**  
