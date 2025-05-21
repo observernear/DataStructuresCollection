@@ -148,10 +148,6 @@
 **Описание:**  
 Самобалансирующееся двоичное дерево с цветными узлами для балансировки.
 
-<div align="center">
-  <img src="assets/RedBlackTree.png" alt="Red-Black Tree" width="400"/>
-</div>
-
 **Код реализации:**  
 [**Java**](src/Java/Structures/Tree/RedBlackTree.java)
 
@@ -161,10 +157,6 @@
 
 **Описание:**  
 Ассоциативный массив с разрешением коллизий методом цепочек (linked lists).
-
-<div align="center">
-  <img src="assets/HashMap.png" alt="HashMap" width="400"/>
-</div>
 
 **Код реализации:**  
 [**Java**](src/Java/Structures/Map/HashMap.java)
