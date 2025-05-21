@@ -164,6 +164,3 @@
 ---
 
 > Этот проект предназначен для обучения и демонстрации основных структур данных на Java.
-
-Визуализация SinglyLinkedList, DoublyLinkedList, Stack, Queue, Deque https://visualgo.net/en/list
-https://visualgo.net/en/bst
